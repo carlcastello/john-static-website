@@ -1,0 +1,9 @@
+- index: 0
+  url: 'assets/images/carousel/sample.jpg'
+
+- index: 1
+  url: 'assets/images/carousel/sample_1.jpg'
+
+- index: 2
+  url: 'assets/images/carousel/sample_2.jpg'
+  
