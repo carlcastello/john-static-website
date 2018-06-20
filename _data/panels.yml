@@ -1,0 +1,11 @@
+- image_url: 'assets/images/panel/house.png'
+  title: 'Morbi et est et tellus finibus'
+  description: 'Duis porta gravida nulla, varius finibus augue lobortis ac. Nunc tincidunt vestibulum.'
+
+- image_url: 'assets/images/panel/pin.png'
+  title: 'Morbi et est et tellus finibus'
+  description: 'Duis porta gravida nulla, varius finibus augue lobortis ac. Nunc tincidunt vestibulum.'
+
+- image_url: 'assets/images/panel/blueprint.png'
+  title: 'Morbi et est et tellus finibus'
+  description: 'Duis porta gravida nulla, varius finibus augue lobortis ac. Nunc tincidunt vestibulum.'

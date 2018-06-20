@@ -1,0 +1,20 @@
+<div class="row">
+  {% for panel in include.panels %}
+    <div class="col-md-4">
+      <div class="panel">
+        <div class="panel-heading">
+          <img class="panel-image" src="{{ panel.image_url | relative_url }}"/>
+        </div>
+        <hr>
+        <div class="panel-body text-center">
+          <h3>
+            {{ panel.title }}
+          </h3>
+          <p>
+            {{ panel.description }}
+          </p>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>

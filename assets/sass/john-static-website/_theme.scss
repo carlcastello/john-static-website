@@ -1,0 +1,38 @@
+nav {
+  hr {
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 100%;
+  }
+}
+
+section {
+  padding: 50px 0px;
+
+  &.section-inverse {
+    background-color: $primary;
+
+    hr {
+      border-color: $white;
+    }
+  }
+
+  &.section-dark {
+    background-color: $dark;
+    hr {
+      border-color: $primary;
+    }
+
+    h2, p {
+      color: $white;
+    }
+  }
+};
+
+hr {
+  border-color: $primary;
+  border-width: 3px;
+  width: 50px;
+  margin-top: 5px;
+  margin-bottom: 30px;
+};

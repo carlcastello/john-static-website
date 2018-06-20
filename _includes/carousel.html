@@ -8,7 +8,7 @@
     {% for slide in include.slides %}
       <div 
         class="carousel-item {% if slide.index == 0 %}active{% endif %}" 
-        style="background-image: url('{{ slide.url | absolute_url }}')">
+        style="background-image: url('{{ slide.url | relative_url }}')">
       </div>
     {% endfor %}
   </div>
