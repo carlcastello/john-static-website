@@ -36,3 +36,36 @@ hr {
   margin-top: 5px;
   margin-bottom: 30px;
 };
+
+.full-width {
+  width: 100%;
+}
+
+.btn-inverse {
+  background-color: transparent;
+  border: 1px solid $gray-900;
+  color: $gray-900;
+
+  &:hover,
+  &:focus {
+    border: 1px solid darken($primary, 10%);
+    background-color: darken($primary, 7.5%);
+    color: $gray-900;
+  }
+}
+
+.contact-link {
+  width: fit-content;
+  margin: 0 auto;
+
+  & > * {
+    display: inline-block;
+  }
+  a {
+    margin-left: 10px;
+  }
+}
+
+.margin-top-sm {
+  margin-top: 10px;
+}
