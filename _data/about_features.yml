@@ -1,0 +1,17 @@
+- image_url: 'assets/images/about_panels/blueprint.png'
+  title: 'Morbi et est et tellus finibus'
+
+- image_url: 'assets/images/about_panels/floor-area.png'
+  title: 'Morbi et est et tellus finibus'
+
+- image_url: 'assets/images/about_panels/garage.png'
+  title: 'Morbi et est et tellus finibus'
+
+- image_url: 'assets/images/about_panels/house.png'
+  title: 'Morbi et est et tellus finibus'
+
+- image_url: 'assets/images/about_panels/location.png'
+  title: 'Morbi et est et tellus finibus'
+
+- image_url: 'assets/images/about_panels/room.png'
+  title: 'Morbi et est et tellus finibus'
