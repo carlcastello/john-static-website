@@ -1,0 +1,12 @@
+---
+title: Gallery
+layout: base
+permalink: /gallery
+---
+
+{% include top-bar.html %}
+<section>
+  <div class="container">
+      {% include album.html photos=site.data.first_floor_gallery album_id="all_photo_gallery" %}
+  </div>     
+</section>
