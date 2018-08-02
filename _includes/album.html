@@ -1,8 +1,9 @@
 <div class="row">
   {% for photo in include.photos %}
     <div class="col-sm-3">
-      <a href="{{ photo.image_url | relative_url }}" data-gallery="{{ include.album_id }}" data-toggle="lightbox">
-        <img src="{{ photo.image_url | relative_url }}" class="img-fluid">
+      <a class="lightbox-container" href="{{ photo.image_url | relative_url }}" data-gallery="{{ include.album_id }}" data-toggle="lightbox">
+        <img class="img-fluid lightbox-photo" src="{{ photo.image_url | relative_url }}">
+        <div class="lightbox-overlay"></div>
       </a>
     </div>
   {% endfor %}
