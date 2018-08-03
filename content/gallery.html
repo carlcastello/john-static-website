@@ -7,6 +7,26 @@ permalink: /gallery
 {% include top-bar.html %}
 <section>
   <div class="container">
-      {% include album.html photos=site.data.first_floor_gallery album_id="all_photo_gallery" %}
+    <div class="row">
+      <div class="col w-100">
+        <h2 class="text-center">Ground Floor</h2>
+      </div>
+    </div>
+    <hr>
+    {% include album.html photos=site.data.first_floor_gallery album_id="all_photo_gallery" %}
+    <div class="row margin-top-lg">
+      <div class="col w-100">
+        <h2 class="text-center">Second Floor</h2>
+      </div>
+    </div>
+    <hr>
+    {% include album.html photos=site.data.second_floor_gallery album_id="all_photo_gallery" %}
+    <div class="row margin-top-lg">
+      <div class="col w-100">
+        <h2 class="text-center">Third Floor</h2>
+      </div>
+    </div>
+    <hr>
+    {% include album.html photos=site.data.third_floor_gallery album_id="all_photo_gallery" %}
   </div>     
 </section>
