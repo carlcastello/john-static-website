@@ -1,9 +1,10 @@
 <div class="row">
   {% for photo in include.photos %}
-    <div class="col-sm-3">
+    <div class="col-lg-3 col-md-4 col-sm-6 my-3">
       <div class="lightbox-container">
-        <a href="{{ photo.image_url | relative_url }}" data-gallery="{{ include.album_id }}" data-toggle="lightbox">
-          <img class="img-fluid lightbox-photo" src="{{ photo.image_url | relative_url }}">
+        <a href="{{ photo.image_url | relative_url }}" data-gallery="{{ include.album_id }}" data-footer="{{ photo.image_title }}" data-toggle="lightbox">
+          <div class="lightbox-photo" style="background-image: url('{{ photo.image_url | relative_url }}')">
+          </div>
           <div class="lightbox-overlay">
             <div class="lightbox-overlay-image">
               <img src="{{ 'assets/images/icons/magnifier.png' | relative_url }}">

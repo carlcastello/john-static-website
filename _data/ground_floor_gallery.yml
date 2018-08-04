@@ -1,8 +1,12 @@
 - image_url: 'assets/images/gallery/ground_floor/living_room.jpg'
+  image_title: Living Room
 - image_url: 'assets/images/gallery/ground_floor/family_room.jpg'
+  image_title: Family Room
 - image_url: 'assets/images/gallery/ground_floor/ground_floor_stairs.jpg'
+  image_title: Grand Staircase
 - image_url: 'assets/images/gallery/ground_floor/dining_room.jpg'
+  image_title: Dinig Room
 - image_url: 'assets/images/gallery/ground_floor/kitchen.jpg'
-
+  image_title: Kitchen
 
   

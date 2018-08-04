@@ -20,6 +20,9 @@
     opacity: 1;
     transition: .5s ease;
     backface-visibility: hidden;
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
   &:hover {
