@@ -1,3 +1,16 @@
-- image_url: 'https://unsplash.it/600.jpg?image=253'
-- image_url: 'https://unsplash.it/600.jpg?image=251'
-  
+- image_url: 'assets/images/gallery/second_floor/master_bedroom.jpg'
+  image_title: Grand Staircase
+- image_url: 'assets/images/gallery/second_floor/bedroom_one.jpg'
+  image_title: Living Room
+- image_url: 'assets/images/gallery/second_floor/bedroom_two.jpg'
+  image_title: Family Room
+- image_url: 'assets/images/gallery/second_floor/bedroom_three.jpg'
+  image_title: Grand Staircase
+- image_url: 'assets/images/gallery/second_floor/hallway.jpg'
+  image_title: Dinig Room
+- image_url: 'assets/images/gallery/second_floor/terrace_one.jpg'
+  image_title: Dinig Room
+- image_url: 'assets/images/gallery/second_floor/terrace_two.jpg'
+  image_title: Kitchen
+- image_url: 'assets/images/gallery/second_floor/terrace_three.jpg'
+  image_title: Kitchen
