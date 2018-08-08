@@ -16,10 +16,20 @@ layout: base
     <div class="row">
       <div class="col-lg-4">
         <div class="blueprint-image" style="background-image: url('{{ 'assets/images/tour/ground_floor.png' | relative_url }}')">
+          {% for photo in site.data.ground_floor_gallery %}
+            <a class="blueprint-camera-image-container" id="{{photo.image_id}}" href="{{photo.image_url}}" data-toggle="lightbox">
+              <img class="blueprint-camera-image" src="{{ 'assets/images/icons/camera.png' }}" />
+            </a>
+          {% endfor %}
         </div>
       </div>
       <div class="col-lg-4">
         <div class="blueprint-image" style="background-image: url('{{ 'assets/images/tour/second_floor.png' | relative_url }}')">
+          {% for photo in site.data.second_floor_gallery %}
+            <a class="blueprint-camera-image-container" id="{{photo.image_id}}" href="{{photo.image_url}}" data-toggle="lightbox">
+              <img class="blueprint-camera-image" src="{{ 'assets/images/icons/camera.png' }}" />
+            </a>
+          {% endfor %}
         </div>
       </div>
       <div class="col-lg-4">

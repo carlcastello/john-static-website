@@ -1,7 +1,257 @@
+body {
+  overflow-x: hidden;
+}
+
 .blueprint-image {
   width: 100%;
   height: 350px;
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
+  position: relative;
 }
+
+// Ground floor camera image
+.blueprint-camera-image-container {
+  position: absolute;
+
+  .blueprint-camera-image {
+    width: 15px;
+    height: 15px;
+  }
+
+  &#living-room {
+    top: 41%;
+    left: 40%;
+  }
+
+  &#family-room {
+    right: 25%;
+    top: 35%;
+  }
+
+  &#staircase {
+    left: 45%;
+    top: 45%;
+  }
+
+  &#kitchen {
+    right: 25%;
+    top: 25%;
+  }
+
+  &#dining-room {
+    left: 45%;
+    top: 28%;
+  }
+}
+
+// Second floor camera image
+.blueprint-camera-image-container {
+  position: absolute; 
+
+  &#master-bedroom {
+    bottom: 20%;
+    right: 30%;
+  }
+
+  &#bedroom-one {
+    right: 50%;
+    top: 30%;
+  }
+
+  &#bedroom-two {
+    right: 23%;
+    top: 30%;
+  }
+
+  &#bedroom-three {
+    right: 29%;
+    top: 50%;
+  }
+
+  &#terrace-one {
+    top: 40%;
+    left: 15%;
+  }
+  
+  &#terrace-two {
+    top: 45%;
+    left: 25%;
+  }
+
+  &#terrace-three {
+    bottom: 30%;
+    left: 25%;
+  }
+
+  &#hallway {
+    bottom: 40%;
+    right: 35%;
+  }
+}
+
+
+
+@include media-breakpoint-only(md) {
+  // Ground Floor camera image
+  .blueprint-camera-image-container {  
+    &#living-room {
+      left: 45%;
+      top: 40%;
+    }
+  
+    &#family-room {
+      right: 37%;
+      top: 32%;
+    }
+  
+    &#staircase {
+      left: 48%;
+    }
+  
+    &#kitchen {
+      right: 36%;
+    }
+  
+    &#dining-room {
+      left: 47%;
+      top: 25%;
+    }
+  }
+
+  // Second floor camera image
+  .blueprint-camera-image-container {  
+    &#master-bedroom {
+      right: 40%;
+    }
+  
+    &#bedroom-two {
+      right: 36%;
+    }
+  
+    &#bedroom-three {
+      right: 38%;
+    }
+  
+    &#terrace-one {
+      left: 30%;
+    }
+    
+    &#terrace-two {
+      left: 38%;
+    }
+  
+    &#terrace-three {
+      left: 38%;
+    }
+  
+    &#hallway {
+      right: 42%;
+    } 
+  }
+}
+
+@include media-breakpoint-between(xs, sm) {
+  .blueprint-camera-image-container {  
+    &#family-room {
+      right: 33%;
+      top: 32%;
+    }
+
+    &#kitchen {
+      right: 30%;
+    }
+
+    &#dining-room {
+      left: 47%;
+      top: 26%;
+    }
+  }
+
+  // Second floor camera image
+  .blueprint-camera-image-container {  
+    &#master-bedroom {
+      right: 37%;
+    }
+  
+    &#bedroom-two {
+      right: 31%;
+    }
+  
+    &#bedroom-three {
+      right: 34%;
+    }
+  
+    &#terrace-one {
+      left: 26%;
+    }
+    
+    &#terrace-two {
+      left: 34%;
+    }
+  
+    &#terrace-three {
+      left: 34%;
+    }
+  
+    &#hallway {
+      right: 40%;
+    } 
+  }
+}
+
+// @include media-breakpoint-only(xs) {
+//   // Ground Floor camera image
+//   .blueprint-camera-image-container {  
+  
+//     &#family-room {
+//       right: 33%;
+//       top: 32%;
+//     }
+  
+//     &#staircase {
+//       left: 48%;
+//     }
+  
+//     &#kitchen {
+//       right: 36%;
+//     }
+  
+//     &#dining-room {
+//       left: 47%;
+//       top: 25%;
+//     }
+//   }
+
+//   // Second floor camera image
+//   .blueprint-camera-image-container {  
+//     &#master-bedroom {
+//       right: 40%;
+//     }
+  
+//     &#bedroom-two {
+//       right: 36%;
+//     }
+  
+//     &#bedroom-three {
+//       right: 38%;
+//     }
+  
+//     &#terrace-one {
+//       left: 30%;
+//     }
+    
+//     &#terrace-two {
+//       left: 38%;
+//     }
+  
+//     &#terrace-three {
+//       left: 38%;
+//     }
+  
+//     &#hallway {
+//       right: 42%;
+//     } 
+//   }
+// }
