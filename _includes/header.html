@@ -9,13 +9,13 @@
     </button>
     <div class="navbar-collapse collapse justify-content-stretch" id="navbar">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
+        <li class="{% if page.url == '/' %}active{% endif %} nav-item">
           <a class="nav-link" href="{{ '/' | relative_url }}">Home</a>
         </li>
-        <li class="nav-item">
+        <li class="{% if page.url == '/about' %}active{% endif %} nav-item">
           <a class="nav-link" href="{{ '/about' | relative_url }}">About</a>
         </li>
-        <li class="nav-item">
+        <li class="{% if page.url == '/gallery' %}active{% endif %} nav-item">
           <a class="nav-link" href="{{ '/gallery' | relative_url }}">Gallery</a>
         </li>
       </ul>
