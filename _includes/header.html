@@ -9,15 +9,11 @@
     </button>
     <div class="navbar-collapse collapse justify-content-stretch" id="navbar">
       <ul class="navbar-nav ml-auto">
-        <li class="{% if page.url == '/' %}active{% endif %} nav-item">
-          <a class="nav-link" href="{{ '/' | relative_url }}">Home</a>
-        </li>
-        <li class="{% if page.url == '/about' %}active{% endif %} nav-item">
-          <a class="nav-link" href="{{ '/about' | relative_url }}">About</a>
-        </li>
-        <li class="{% if page.url == '/gallery' %}active{% endif %} nav-item">
-          <a class="nav-link" href="{{ '/gallery' | relative_url }}">Gallery</a>
-        </li>
+        {% for nav_page in site.data.nav_pages %}
+          <li class="{% if page.url == nav_page.page_url %}active{% endif %} nav-item">
+            <a class="nav-link" href="{{ nav_page.page_url | relative_url }}">{{ nav_page.page_name }}</a>
+          </li>
+        {% endfor %}
       </ul>
     </div>
   </div>
