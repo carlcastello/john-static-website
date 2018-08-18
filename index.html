@@ -14,7 +14,7 @@ layout: base
     </div>
     <hr>
     <div class="row">
-      <div class="col-lg-4">
+      <div class="col-lg-4 my-3">
         <div class="blueprint-image" style="background-image: url('{{ 'assets/images/tour/ground_floor.png' | relative_url }}')">
           {% for photo in site.data.ground_floor_gallery %}
             <a class="blueprint-camera-image-container" id="{{ photo.image_id }}" href="{{ photo.image_url | relative_url }}" data-toggle="lightbox">
@@ -23,7 +23,7 @@ layout: base
           {% endfor %}
         </div>
       </div>
-      <div class="col-lg-4">
+      <div class="col-lg-4 my-3">
         <div class="blueprint-image" style="background-image: url('{{ 'assets/images/tour/second_floor.png' | relative_url }}')">
           {% for photo in site.data.second_floor_gallery %}
             <a class="blueprint-camera-image-container" id="{{ photo.image_id }}" href="{{ photo.image_url | relative_url }}" data-toggle="lightbox">
@@ -32,7 +32,7 @@ layout: base
           {% endfor %}
         </div>
       </div>
-      <div class="col-lg-4">
+      <div class="col-lg-4 my-3">
         <div class="blueprint-image" style="background-image: url('{{ 'assets/images/tour/third_floor.png' | relative_url }}')">
         </div>
       </div>
@@ -48,11 +48,11 @@ layout: base
     </div>
     <hr>
     <div class="row justify-content-center">
-      <div class="col-lg-8">
+      <div class="col-lg-8 my-3">
         <p class="text-center">
           Experience the luxury of a <span class="highlight">755m<sup>2</sup></span> mansion located on the 
           outskirt of Calapan, Oriental Mindoro. Inspired by contemporary
-          architecture with a flair for traditionalism, this <span class="highlight">9 bedrooms, 
+          architecture with a flair for traditionalism, this <span class="highlight">9&nbsp;bedrooms,
           7 full bathrooms</span> residence suits to anyone wishing for a comfortable 
           yet luxorius living.
         </p>
@@ -67,7 +67,7 @@ layout: base
 </section>
 <section>
   <div class="container">
-    {% include panels.html panels=site.data.index_features size="col-lg-3 col-sm-6" container_id="container_id" %}
+    {% include panels.html panels=site.data.index_features size="col-lg-3 col-sm-6" container_id="home_feature" %}
   </div>
 </section>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15526.734080247214!2d121.19530086774768!3d13.369944390595386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTPCsDIyJzExLjgiTiAxMjHCsDEyJzE0LjYiRQ!5e0!3m2!1sen!2sca!4v1502425374176" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>

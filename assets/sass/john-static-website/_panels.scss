@@ -4,19 +4,13 @@
   max-width: 200px;
 }
 
-#container_id {
+#home_feature {
   h3 {
-    font-size: 25px
+    font-size: $font-size-lg
   }
 }
 
 #about-feature {
-  h3 {
-    font-size: 15px;
-  };
-  hr {
-    margin-bottom: 10px; 
-  }
   .panel-image {
     max-width: 100px;
   };
