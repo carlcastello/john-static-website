@@ -1,11 +1,8 @@
 - image_url: 'assets/images/panel/house.png'
   title: '16,684 sq ft lot area enclosed in a 12 ft high perimeter fence'
-  description: 'Duis porta gravida nulla, varius finibus augue lobortis ac. Nunc tincidunt vestibulum.'
 
 - image_url: 'assets/images/panel/pin.png'
   title: '20 minutes away from downtown Calapan'
-  description: 'Duis porta gravida nulla, varius finibus augue lobortis ac. Nunc tincidunt vestibulum.'
 
 - image_url: 'assets/images/panel/blueprint.png'
   title: '9 Bedrooms and 7 Full Bathrooms'
-  description: 'Duis porta gravida nulla, varius finibus augue lobortis ac. Nunc tincidunt vestibulum.'
