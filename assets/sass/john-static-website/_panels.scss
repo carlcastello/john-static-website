@@ -11,6 +11,11 @@
 }
 
 #about-feature {
+  .panel {
+    p {
+      font-size: $font-size-sm
+    }
+  }
   .panel-image {
     max-width: 100px;
   };
