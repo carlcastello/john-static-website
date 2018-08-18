@@ -12,15 +12,6 @@
   background-size: cover;
 };
 
-.carousel-overlay {
-  position: absolute;
-  top: 0%;
-  height: 100%;
-  width: 100%;
-  background-color: black;
-  opacity: 0.1;
-}
-
 @include media-breakpoint-down(md) {
   .carousel-item { 
     height: 70vh;
