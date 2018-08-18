@@ -17,3 +17,11 @@
     height: 70vh;
   }
 }
+
+@include media-breakpoint-down(sm) {
+  .carousel-item {
+    background: no-repeat center bottom;
+    background-size: cover;
+    height: 80vh;
+  }
+}
