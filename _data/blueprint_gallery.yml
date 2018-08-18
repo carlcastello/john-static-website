@@ -1,0 +1,9 @@
+- image_url: 'assets/images/tour/ground_floor.png'
+  image_title: Ground Floor
+  image_id: ground-floor
+- image_url: 'assets/images/tour/second_floor.png'
+  image_title: Second Floor
+  image_id: second-floor
+- image_url: 'assets/images/tour/third_floor.png'
+  image_title: Third Floor
+  image_id: third-floor
