@@ -9,17 +9,34 @@ permalink: /gallery
   <div class="container">
     <div class="row">
       <div class="col w-100">
+        <h2 class="text-center">Blueprints</h2>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      {%  for photo in site.data.blueprint_gallery %}
+        <div class="col-lg-4 my-3">
+            <a href="{{ photo.image_url | relative_url }}" data-gallery="{{ include.album_id }}" data-footer="{{ photo.image_title }}" data-toggle="lightbox">
+              <div class="blueprint-image" style="background-image: url('{{ photo.image_url | relative_url }}')">
+              </div>
+            </a>
+        </div>
+      {% endfor %}
+    </div>
+    <!-- {% include album.html photos=site.data.blueprint_gallery album_id="blueprint_gallery" column_overide="col-lg-4" image_class="blueprint-image" %} -->
+    <div class="row">
+      <div class="col w-100">
         <h2 class="text-center">Ground Floor</h2>
       </div>
     </div>
     <hr>
-    {% include album.html photos=site.data.ground_floor_gallery album_id="ground_floor_gallery" %}
+    {% include album.html photos=site.data.ground_floor_gallery album_id="ground_floor_gallery" image_class="photo-gallery" %}
     <div class="row margin-top-lg">
       <div class="col w-100">
         <h2 class="text-center">Second Floor</h2>
       </div>
     </div>
     <hr>
-    {% include album.html photos=site.data.second_floor_gallery album_id="second_floor_gallery" %}
+    {% include album.html photos=site.data.second_floor_gallery album_id="second_floor_gallery" image_class="photo-gallery" %}
   </div>     
 </section>
