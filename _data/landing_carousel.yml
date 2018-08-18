@@ -1,12 +1,18 @@
 - index: 0
-  url: 'assets/images/carousel/exterior_two.jpg'
-
-- index: 1
-  url: 'assets/images/carousel/exterior_one_dark.jpg'
-
-- index: 2
   url: 'assets/images/carousel/exterior_one.jpg'
 
+- index: 1
+  url: 'assets/images/carousel/exterior_two.jpg'
+
+- index: 2
+  url: 'assets/images/carousel/exterior_three.jpg'
+
 - index: 3
-  url: 'assets/images/carousel/exterior_two_dark.jpg'
+  url: 'assets/images/carousel/exterior_four.jpg'
+
+# - index: 2
+#   url: 'assets/images/carousel/exterior_one.jpg'
+
+# - index: 3
+#   url: 'assets/images/carousel/exterior_two_dark.jpg'
   
