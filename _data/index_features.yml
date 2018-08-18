@@ -1,8 +1,11 @@
-- image_url: 'assets/images/panel/house.png'
-  title: '16,684 sq ft lot area enclosed in a 12 ft high perimeter fence'
-
-- image_url: 'assets/images/panel/pin.png'
-  title: '20 minutes away from downtown Calapan'
+- image_url: 'assets/images/panel/backyard.png'
+  title: '1,550m<sup>2</sup> lot area enclosed in a 3.5m high perimeter fence'
 
 - image_url: 'assets/images/panel/blueprint.png'
-  title: '9 Bedrooms and 7 Full Bathrooms'
+  title: 'A spacious master bedroom, 8 bedrooms, full bathrooms and a home theatre'
+
+- image_url: 'assets/images/panel/terrace.png'
+  title: '3 stories residence with a 67m<sup>2</sup> porch and a 55.7m<sup>2</sup> second floor terrace'
+
+- image_url: 'assets/images/panel/garage.png'
+  title: 'Includes an auxillary building with a 3 vehicle garage and a servant quarter'
