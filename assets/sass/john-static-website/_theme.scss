@@ -51,15 +51,22 @@ hr {
 
 .btn-inverse {
   background-color: transparent;
-  border: 1px solid $gray-900;
-  color: $gray-900;
 
   &:hover,
   &:focus {
     border: 1px solid darken($primary, 10%);
     background-color: darken($primary, 7.5%);
-    color: $gray-900;
   }
+}
+
+.btn-dark {
+  border: 1px solid $gray-900;
+  color: $gray-900;
+}
+
+.btn-light {
+  border: 1px solid $white;
+  color: $white;
 }
 
 .contact-link {

@@ -15,8 +15,6 @@ body {
   }
 }
 
-
-
 // Ground floor camera image
 .blueprint-camera-image-container {
   position: absolute;
@@ -96,8 +94,6 @@ body {
     right: 35%;
   }
 }
-
-
 
 @include media-breakpoint-only(md) {
   // Ground Floor camera image

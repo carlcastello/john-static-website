@@ -25,13 +25,3 @@
     height: 80vh;
   }
 }
-
-@include media-breakpoint-down(xs) {
-  #carousel-container {
-    height: 62px;
-
-    * {
-      display: none;
-    }
-  }
-}
