@@ -1,17 +1,11 @@
-- image_url: 'assets/images/about_panels/blueprint.png'
-  description: 'Designed to suit a variety of Filipino lifestyles'
-
 - image_url: 'assets/images/about_panels/floor-area.png'
-  description: '755m<sup>2</sup> residence on a 1,550m<sup>2</sup> lot area'
-
-- image_url: 'assets/images/about_panels/garage.png'
-  description: 'Includes an auxillary building with a 3 vehicle garage and a servant quarter'
-
-- image_url: 'assets/images/about_panels/house.png'
-  description: '3 stories residence with a 67m<sup>2</sup> porch and a 55.7m<sup>2</sup> second floor terrace'
-
-- image_url: 'assets/images/about_panels/location.png'
-  description: 'Minutes away from downtown Calapan and 5 minutes away from a school'
+  description: 'The master bedroom has a jacuzzi, and a spiral staircase direct access to the 3<sup>rd</sup> floor extension room.'
 
 - image_url: 'assets/images/about_panels/room.png'
-  description: 'A spacious master bedroom, 8 bedrooms, full bathrooms and a home theatre'
+  description: 'The porch has a floor area of 67m<sup>2</sup>. The terrace is very spacious with 55.7m<sup>2</sup> of space. The Porch and Balconies are made of massive stainless steel railings'
+
+- image_url: 'assets/images/about_panels/house.png'
+  description: "The servant's quarters is a 1-storey residential building and has 3 bedrooms with a common toilet and bath. The total floor area is approximately 17m<sup>2</sup>."
+
+- image_url: 'assets/images/about_panels/garage.png'
+  description: 'The perimeter reinforced concrete fence wall height is 2.5m with 1m steel grating all around the top of the walls. The overall height of the fence is 3.5m.'

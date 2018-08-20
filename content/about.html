@@ -10,10 +10,10 @@ permalink: /about
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
-        {% include panels.html panels=site.data.about_features size="col-lg-2 col-sm-4" container_id="about-feature" %}
+        {% include panels.html panels=site.data.about_features size="col-lg-3 col-sm-6" container_id="about-feature" %}
       </div>
     </div>
-    <div class="row margin-top-lg description-tabs">
+    <div class="row mt-4 description-tabs">
       <div class="col-lg-12">
         <ul class="nav nav-tabs nav-justified">
           <li class="nav-item">
@@ -27,41 +27,38 @@ permalink: /about
         <div class="tab-content">
           <div class="tab-pane container active" id="details">
             <section>
-              <div class="row">
+              <div class="row mb-4">
                 <div class="col-sm-12">
                   <h3>
-                    Description
+                    Property Details
                   </h3>
                 </div>
+              </div>
+              <div class="row">
                 <div class="col-sm-12">
-                  <p>
-                     The main level features the magnificent formal living room with stone face wall 
-                     and 12 ft ceilings. The kitchen boasts Maple wood cabinets and Granite counter 
-                     tops. The customized main entrance door is made of Narra wood. The staircase's 
-                     planks and handrails are made of Narra wood and Stainless steel railings. 
-                     The spiral staircase planks are made of Narra wood and Stainless steel handrails 
-                     and side rails.
-                  </p>
-                  <p>
-                    All Bedrooms on the 2nd floor has its own sliding glass door access to each balcony, 
-                    sliding glass (mirror) closets with built-in cabinets & drawers. The Terrace on the 
-                    2nd floor is very spacious with 55.7 sq. m. floor area. The Porch and Balconies all 
-                    around the house are stainless steel railings
-                  </p>
-                  <p>
-                    Ground floor – 12ft high customized ceiling. 2nd floor – 10ft customized ceiling. 
-                    3rd floor Attic – 9ft ceiling. The Floor Slabs (ground floor up to the 3rd floor) – 12 inches thickness 
-                    reinforced concrete. The Hollow blocks used for the exterior walls of the house were 6 inches thick; 
-                    in addition, the mortar/finishing (both sides) and stone wall cladding make the total thickness 
-                    of the exterior walls 10 inches thick. 
-                  </p>
-                  <p>
-                    The perimeter reinforced concrete fence wall height = 2.5m plus 1m steel grating on the top of the wall. 
-                    The overall height of the fence is 3.5m. The dimensions of the corner columns/post = 300mm X 300mm X 3.75m (4nos). 
-                    The dimensions of the center columns/post = 250mm X 250mm X 3.75m (33nos). The hollow blocks used for the fence 
-                    wall was 5 inches thick; in addition, the mortar/finishing (both sides) make the total thickness of the fence wall 
-                    8 inches thick.
-                  </p>
+                  <h5>This 3 storey residential mansion sits on 1550m<sup>2</sup>m of land showcasing of the following:</h5>
+                </div>
+                <div class="col-sm-12">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <ul>
+                        {% for content in site.data.property_details_list %}
+                          {% if content.left_list_text %}
+                            <li class="my-2">{{ content.left_list_text }}</li>
+                          {% endif %}
+                        {% endfor %}
+                      </ul>
+                    </div>
+                    <div class="col-md-6">
+                      <ul>
+                        {% for content in site.data.property_details_list %}
+                          {% if content.right_list_text %}
+                            <li class="my-2">{{ content.right_list_text }}</li>
+                          {% endif %}
+                        {% endfor %}
+                      </ul>
+                    </div>  
+                  </div>
                 </div>
               </div>
             </section>
