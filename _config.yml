@@ -17,7 +17,7 @@ title: Mansion For Sale
 email: carl.castello96@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   A spacious 3 storey residential mansion for sale in Calapan City, Oriental Mindoro
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "/john-static-website" # the subpath of your site, e.g. /blog
 url: "/" # the base hostname & protocol for your site, e.g. http://example.com
 
 
