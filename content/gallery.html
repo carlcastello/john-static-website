@@ -16,7 +16,7 @@ permalink: /gallery
     <div class="row">
       {%  for photo in site.data.blueprint_gallery %}
         <div class="col-lg-4 my-3">
-            <a href="{{ photo.image_url | relative_url }}" data-gallery="{{ include.album_id }}" data-footer="{{ photo.image_title }}" data-toggle="lightbox">
+            <a href="{{ photo.image_url | relative_url }}" data-gallery="blueprint-gallery" data-footer="{{ photo.image_title }}" data-toggle="lightbox">
               <div class="blueprint-image" style="background-image: url('{{ photo.image_url | relative_url }}')">
               </div>
             </a>
