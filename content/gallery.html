@@ -29,13 +29,27 @@ permalink: /gallery
       </div>
     </div>
     <hr>
-    {% include album.html photos=site.data.ground_floor_gallery album_id="ground_floor_gallery" image_class="photo-gallery" %}
+    <div class="row">
+      {% include album.html photos=site.data.ground_floor_gallery album_id="ground_floor_gallery" image_class="photo-gallery" %}
+    </div>
     <div class="row margin-top-lg">
       <div class="col w-100">
         <h2 class="text-center">Second Floor</h2>
       </div>
     </div>
     <hr>
-    {% include album.html photos=site.data.second_floor_gallery album_id="second_floor_gallery" image_class="photo-gallery" %}
+    <div class="row">
+      {% include album.html photos=site.data.second_floor_gallery album_id="second_floor_gallery" image_class="photo-gallery" %}
+      {% include album.html photos=site.data.second_floor_extra_gallery album_id="second_floor_gallery" image_class="photo-gallery" %}
+    </div>
+    <div class="row margin-top-lg">
+      <div class="col w-100">
+        <h2 class="text-center">Third Floor</h2>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      {% include album.html photos=site.data.third_floor_gallery album_id="third_floor_gallery" image_class="photo-gallery" %}
+    </div>
   </div>     
 </section>

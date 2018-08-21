@@ -1,17 +1,15 @@
-<div class="row">
-  {% for photo in include.photos %}
-    <div class="{% if include.column_overide %} {{ include.column_overide }} {% else %} col-lg-3 col-md-4 col-sm-6 {% endif %} my-3">
-      <div class="lightbox-container">
-        <a href="{{ photo.image_url | relative_url }}" data-gallery="{{ include.album_id }}" data-footer="{{ photo.image_title }}" data-toggle="lightbox">
-          <div class="lightbox-photo {{ include.image_class }}" style="background-image: url('{{ photo.image_url | relative_url }}')">
+{% for photo in include.photos %}
+  <div class="{% if include.column_overide %} {{ include.column_overide }} {% else %} col-lg-3 col-md-4 col-sm-6 {% endif %} my-3">
+    <div class="lightbox-container">
+      <a href="{{ photo.image_url | relative_url }}" data-gallery="{{ include.album_id }}" data-footer="{{ photo.image_title }}" data-toggle="lightbox">
+        <div class="lightbox-photo {{ include.image_class }}" style="background-image: url('{{ photo.image_url | relative_url }}')">
+        </div>
+        <div class="lightbox-overlay">
+          <div class="lightbox-overlay-image">
+            <img src="{{ 'assets/images/icons/magnifier.png' | relative_url }}">
           </div>
-          <div class="lightbox-overlay">
-            <div class="lightbox-overlay-image">
-              <img src="{{ 'assets/images/icons/magnifier.png' | relative_url }}">
-            </div>
-          </div>
-        </a>
-      </div>
+        </div>
+      </a>
     </div>
-  {% endfor %}
-</div>
+  </div>
+{% endfor %}

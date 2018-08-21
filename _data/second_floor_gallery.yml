@@ -1,24 +1,18 @@
-- image_url: 'assets/images/gallery/second_floor/master_bedroom.jpg'
+- image_url: 'assets/images/gallery/second_floor/master_bedroom_new.jpg'
   image_title: Master Bedroom
   image_id: master-bedroom
-- image_url: 'assets/images/gallery/second_floor/bedroom_one.jpg'
+- image_url: 'assets/images/gallery/second_floor/bedroom_one_new.jpg'
   image_title: Bedroom One
   image_id: bedroom-one
-- image_url: 'assets/images/gallery/second_floor/bedroom_two.jpg'
+- image_url: 'assets/images/gallery/second_floor/bedroom_two_new.jpg'
   image_title: Bedroom Two
   image_id: bedroom-two
-- image_url: 'assets/images/gallery/second_floor/bedroom_three.jpg'
+- image_url: 'assets/images/gallery/second_floor/bedroom_three_new.jpg'
   image_title: Bedroom Three
   image_id: bedroom-three
-- image_url: 'assets/images/gallery/second_floor/hallway.jpg'
-  image_title: Hallway
-  image_id: hallway
-- image_url: 'assets/images/gallery/second_floor/terrace_one.jpg'
-  image_title: Terrace One
-  image_id: terrace-one
-- image_url: 'assets/images/gallery/second_floor/terrace_two.jpg'
-  image_title: Terrace Two
-  image_id: terrace-two
-- image_url: 'assets/images/gallery/second_floor/terrace_three.jpg'
+- image_url: 'assets/images/gallery/second_floor/staircase_three.jpg'
+  image_title: Staircase Three
+  image_id: staircase-three
+- image_url: 'assets/images/gallery/second_floor/terrace_new.jpg'
   image_title: Terrace Three
-  image_id: terrace-three
+  image_id: terrace-two

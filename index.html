@@ -42,7 +42,7 @@ layout: base
           outskirt of Calapan, Oriental Mindoro. Inspired by contemporary
           architecture, this <span class="highlight">9&nbsp;bedrooms,
           7 full bathrooms</span> residence suits to anyone wishing for a comfortable 
-          yet luxorius living.
+          yet luxurious living.
         </p>
       </div>
     </div>
@@ -84,6 +84,11 @@ layout: base
       </div>
       <div class="col-lg-4 my-3">
         <div class="blueprint-image" style="background-image: url('{{ 'assets/images/tour/third_floor.png' | relative_url }}')">
+          {% for photo in site.data.third_floor_gallery %}
+            <a class="blueprint-camera-image-container" id="{{ photo.image_id }}" href="{{ photo.image_url | relative_url }}" data-toggle="lightbox">
+              <img class="blueprint-camera-image" src="{{ 'assets/images/icons/camera.png' | relative_url }}" />
+            </a>
+          {% endfor %}
         </div>
         <h5 class="text-center mt-3">Third Floor Plan</h5>
       </div>

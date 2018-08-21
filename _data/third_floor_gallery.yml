@@ -1,3 +1,10 @@
-- image_url: 'https://unsplash.it/600.jpg?image=251'
-- image_url: 'https://unsplash.it/600.jpg?image=253'
-  
+- image_url: 'assets/images/gallery/third_floor/attic_bedroom.jpg'
+  image_title: Attic Bedroom
+  image_id: attic-bedroom
+- image_url: 'assets/images/gallery/third_floor/attic_center.jpg'
+  image_title: Attic Center
+  image_id: attic-center
+- image_url: 'assets/images/gallery/third_floor/spiral_staircase.jpg'
+  image_title: Spiral Staircase
+  image_id: spiral-staircase
+    
