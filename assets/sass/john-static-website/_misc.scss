@@ -16,14 +16,14 @@ html {
   }
 }
 
+.blueprint-camera-image {
+  width: 15px;
+  height: 15px;
+}
+
 #ground-floor {
   .blueprint-camera-image-container {
     position: absolute;
-
-    .blueprint-camera-image {
-      width: 15px;
-      height: 15px;
-    }
 
     &#living-room {
       top: 41%;
@@ -57,55 +57,61 @@ html {
   }
 }
 
-// // Second floor camera image
-// .blueprint-camera-image-container {
-//   position: absolute; 
-
-//   &#master-bedroom {
-//     bottom: 20%;
-//     right: 30%;
-//   }
-
-//   &#bedroom-one {
-//     right: 50%;
-//     top: 30%;
-//   }
-
-//   &#bedroom-two {
-//     right: 23%;
-//     top: 30%;
-//   }
-
-//   &#bedroom-three {
-//     right: 29%;
-//     top: 50%;
-//   }
-
-//   // &#terrace-one {
-//   //   top: 40%;
-//   //   left: 15%;
-//   // }
+#second-floor {
+  .blueprint-camera-image-container {
+    position: absolute; 
   
-//   &#terrace-two {
-//     top: 45%;
-//     left: 25%;
-//   }
+    &#master-bedroom {
+      bottom: 20%;
+      right: 30%;
+    }
+  
+    &#bedroom-one {
+      right: 50%;
+      top: 30%;
+    }
+  
+    &#bedroom-two {
+      right: 23%;
+      top: 30%;
+    }
+  
+    &#bedroom-three {
+      right: 29%;
+      top: 50%;
+    }
+  
+    // &#terrace-one {
+    //   top: 40%;
+    //   left: 15%;
+    // }
+    
+    &#terrace-two {
+      top: 45%;
+      left: 25%;
+    }
+  
+    // &#terrace-three {
+    //   bottom: 30%;
+    //   left: 25%;
+    // }
+  
+    // &#hallway {
+    //   bottom: 40%;
+    //   right: 35%;
+    // }
+  
+    &#landing-grand-staircase {
+      right: 44%;
+      top: 45%;
+    }
 
-//   // &#terrace-three {
-//   //   bottom: 30%;
-//   //   left: 25%;
-//   // }
-
-//   // &#hallway {
-//   //   bottom: 40%;
-//   //   right: 35%;
-//   // }
-
-//   &#staircase-three {
-//     right: 44%;
-//     top: 45%;
-//   }
-// }
+    &#spiral-staircase {
+      bottom: 27%;
+      right: 33%;
+    }
+  }  
+}
 
 // @include media-breakpoint-only(md) {
 //   // Ground Floor camera image
@@ -237,3 +243,8 @@ html {
   
 //   }
 // }
+
+
+#third-floor {
+
+}

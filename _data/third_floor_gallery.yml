@@ -1,10 +1,12 @@
 - image_url: 'assets/images/gallery/third_floor/attic_bedroom.jpg'
-  image_title: Attic Bedroom
+  image_title: Master Bedroom Extension
   image_id: attic-bedroom
+
 - image_url: 'assets/images/gallery/third_floor/attic_center.jpg'
-  image_title: Attic Center
+  image_title: Attic
   image_id: attic-center
-- image_url: 'assets/images/gallery/third_floor/spiral_staircase.jpg'
+
+- image_url: 'assets/images/common/spiral_staircase.jpg'
   image_title: Spiral Staircase
   image_id: spiral-staircase
     
