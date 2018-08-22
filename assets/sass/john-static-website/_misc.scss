@@ -27,6 +27,7 @@ html {
 }
 
 #ground-floor {
+
   #living-room {
     top: 41%;
     left: 40%;
@@ -57,6 +58,46 @@ html {
     top: 28%;
   }
   
+  @include media-breakpoint-only(md) {
+    #living-room {
+      left: 45%;
+      top: 40%;
+    }
+  
+    #family-room {
+      right: 37%;
+      top: 32%;
+    }
+  
+    #staircase {
+      left: 48%;
+    }
+  
+    #kitchen {
+      right: 36%;
+    }
+  
+    #dining-room {
+      left: 47%;
+      top: 25%;
+    }
+  }
+
+  @include media-breakpoint-down(sm) {
+    &#family-room {
+      right: 30%;
+      top: 32%;
+    }
+
+    &#kitchen {
+      right: 30%;
+    }
+
+    &#dining-room {
+      left: 47%;
+      top: 26%;
+    }
+  }
 }
 
 #second-floor {
@@ -108,6 +149,82 @@ html {
   #spiral-staircase {
     bottom: 27%;
     right: 33%;
+  }
+
+  @include media-breakpoint-only(md) {
+    #master-bedroom {
+      right: 40%;
+    }
+  
+    #bedroom-two {
+      right: 36%;
+    }
+  
+    #bedroom-three {
+      right: 38%;
+    }
+  
+    // #terrace-one {
+    //   left: 30%;
+    // }
+    
+    #terrace-two {
+      left: 38%;
+    }
+  
+    // #terrace-three {
+    //   left: 38%;
+    // }
+  
+    // #hallway {
+    //   right: 42%;
+    // } 
+
+
+    #landing-grand-staircase {
+      right: 47%;
+      top: 47%;
+    }
+
+    #spiral-staircase {
+      bottom: 27%;
+      right: 41%;
+    }
+  }
+
+  @include media-breakpoint-down(sm) {
+    #master-bedroom {
+      right: 37%;
+    }
+  
+    #bedroom-two {
+      right: 31%;
+    }
+  
+    #bedroom-three {
+      right: 34%;
+    }
+  
+    // #terrace-one {
+    //   left: 26%;
+    // }
+    
+    #terrace-two {
+      left: 34%;
+    }
+  
+    // #terrace-three {
+    //   left: 34%;
+    // }
+  
+    // #hallway {
+    //   right: 40%;
+    // } 
+
+    #landing-grand-staircase {
+      right: 48%;
+      top: 47%;
+    }
   }
 }
 
@@ -257,5 +374,29 @@ html {
   #master-bedroom {
     right: 45%;
     bottom: 21%;
+  }
+
+  @include media-breakpoint-only(md) {
+    #spiral-staircase {
+      right: 49%;
+      bottom: 29%;
+    }
+  
+    #master-bedroom {
+      right: 48%;
+      bottom: 21%;
+    }
+  }
+
+  @include media-breakpoint-down(sm) {
+    #spiral-staircase {
+      right: 50%;
+      bottom: 29%;
+    }
+  
+    #master-bedroom {
+      right: 49%;
+      bottom: 21%;
+    }
   }
 }
