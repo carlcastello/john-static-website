@@ -13,6 +13,9 @@
 - image_url: 'assets/images/gallery/second_floor/staircase_three.jpg'
   image_title: Staircase Three
   image_id: staircase-three
+- image_url: 'assets/images/gallery/second_floor/.jpg'
+  image_title: Staircase Three
+  image_id: staircase-spiral
 - image_url: 'assets/images/gallery/second_floor/terrace_new.jpg'
   image_title: Terrace Three
   image_id: terrace-two

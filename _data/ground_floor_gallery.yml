@@ -1,18 +1,23 @@
 - image_url: 'assets/images/gallery/ground_floor/living_room.jpg'
   image_title: Living Room
   image_id: 'living-room'
+
 - image_url: 'assets/images/gallery/ground_floor/family_room.jpg'
   image_title: Family Room
   image_id: 'family-room'
-- image_url: 'assets/images/gallery/ground_floor/ground_floor_stairs.jpg'
+
+- image_url: 'assets/images/gallery/ground_floor/grand_staircase.jpg'
   image_title: Grand Staircase
-  image_id: 'staircase'
-- image_url: 'assets/images/gallery/ground_floor/staircase_two.jpg'
+  image_id: 'grand-staircase'
+  
+- image_url: 'assets/images/gallery/ground_floor/vertical_grand_staircase.jpg'
   image_title: Staircase Two
-  image_id: staircase-two
+  image_id: vertical-grand-staircase
+
 - image_url: 'assets/images/gallery/ground_floor/dining_room.jpg'
   image_title: Dining Room
   image_id: 'dining-room'
+
 - image_url: 'assets/images/gallery/ground_floor/kitchen.jpg'
   image_title: Kitchen
   image_id: 'kitchen'

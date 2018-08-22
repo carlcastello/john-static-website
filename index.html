@@ -39,7 +39,7 @@ layout: base
       <div class="col-lg-8 my-3">
         <p class="text-center">
           Built in 2010, Experience the luxury of a <span class="highlight">755m<sup>2</sup></span> mansion located on the 
-          outskirt of Calapan, Oriental Mindoro. Inspired by contemporary
+          outskirts of Calapan, Oriental Mindoro. Inspired by contemporary
           architecture, this <span class="highlight">9&nbsp;bedrooms,
           7 full bathrooms</span> residence suits to anyone wishing for a comfortable 
           yet luxurious living.
@@ -62,7 +62,7 @@ layout: base
     </div>
     <hr>
     <div class="row">
-      <div class="col-lg-4 my-3">
+      <div id="ground-floor" class="col-lg-4 my-3">
         <div class="blueprint-image" style="background-image: url('{{ 'assets/images/tour/ground_floor.png' | relative_url }}')">
           {% for photo in site.data.ground_floor_gallery %}
             <a class="blueprint-camera-image-container" id="{{ photo.image_id }}" href="{{ photo.image_url | relative_url }}" data-toggle="lightbox">
