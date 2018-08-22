@@ -15,15 +15,16 @@ permalink: /gallery
     <hr>
     <div class="row">
       {%  for photo in site.data.blueprint_gallery %}
-        <div class="col-lg-4 my-3">
+        <div class="col-lg-3 my-3">
             <a href="{{ photo.image_url | relative_url }}" data-gallery="blueprint-gallery" data-footer="{{ photo.image_title }}" data-toggle="lightbox">
               <div class="blueprint-image" style="background-image: url('{{ photo.image_url | relative_url }}')">
               </div>
             </a>
+            <h5 class="text-center mt-3">{{ photo.image_title }}</h5>
         </div>
       {% endfor %}
     </div>
-    <div class="row">
+    <div class="row mt-5">
       <div class="col w-100">
         <h2 class="text-center">Ground Floor</h2>
       </div>
@@ -32,7 +33,7 @@ permalink: /gallery
     <div class="row">
       {% include album.html photos=site.data.ground_floor_gallery album_id="ground_floor_gallery" image_class="photo-gallery" %}
     </div>
-    <div class="row margin-top-lg">
+    <div class="row mt-5">
       <div class="col w-100">
         <h2 class="text-center">Second Floor</h2>
       </div>
@@ -42,7 +43,7 @@ permalink: /gallery
       {% include album.html photos=site.data.second_floor_gallery album_id="second_floor_gallery" image_class="photo-gallery" %}
       {% include album.html photos=site.data.second_floor_extra_gallery album_id="second_floor_gallery" image_class="photo-gallery" %}
     </div>
-    <div class="row margin-top-lg">
+    <div class="row mt-5">
       <div class="col w-100">
         <h2 class="text-center">Third Floor</h2>
       </div>

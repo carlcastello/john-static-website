@@ -1,14 +1,19 @@
 - index: 0
   url: 'assets/images/carousel/exterior_one.jpg'
+  extra_class: 'cover'
 
 - index: 1
   url: 'assets/images/carousel/exterior_two.jpg'
+  extra_class: 'cover'
 
 - index: 2
   url: 'assets/images/carousel/exterior_three.jpg'
+  extra_class: 'cover'
 
 - index: 3
   url: 'assets/images/carousel/exterior_four.jpg'
+  extra_class: 'cover'
 
 - index: 4
   url: 'assets/images/common/blueprint.png'
+  extra_class: 'contain'
