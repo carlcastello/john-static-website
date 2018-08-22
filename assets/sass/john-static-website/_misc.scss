@@ -16,101 +16,99 @@ html {
   }
 }
 
-.blueprint-camera-image {
-  width: 15px;
-  height: 15px;
+.blueprint-camera-image-container {
+  position: absolute; 
+
+  .blueprint-camera-image {
+    width: 15px;
+    height: 15px;
+  }
+  
 }
 
 #ground-floor {
-  .blueprint-camera-image-container {
-    position: absolute;
-
-    &#living-room {
-      top: 41%;
-      left: 40%;
-    }
-
-    &#family-room {
-      right: 25%;
-      top: 35%;
-    }
-
-    &#grand-staircase {
-      left: 45%;
-      top: 45%;
-    }
-
-    &#vertical-grand-staircase {
-      right: 43%;
-      top: 40%;
-    }
-
-    &#kitchen {
-      right: 25%;
-      top: 25%;
-    }
-
-    &#dining-room {
-      left: 45%;
-      top: 28%;
-    }
+  #living-room {
+    top: 41%;
+    left: 40%;
   }
+
+  #family-room {
+    right: 25%;
+    top: 35%;
+  }
+
+  #grand-staircase {
+    left: 45%;
+    top: 45%;
+  }
+
+  #vertical-grand-staircase {
+    right: 43%;
+    top: 40%;
+  }
+
+  #kitchen {
+    right: 25%;
+    top: 25%;
+  }
+
+  #dining-room {
+    left: 45%;
+    top: 28%;
+  }
+  
 }
 
 #second-floor {
-  .blueprint-camera-image-container {
-    position: absolute; 
-  
-    &#master-bedroom {
-      bottom: 20%;
-      right: 30%;
-    }
-  
-    &#bedroom-one {
-      right: 50%;
-      top: 30%;
-    }
-  
-    &#bedroom-two {
-      right: 23%;
-      top: 30%;
-    }
-  
-    &#bedroom-three {
-      right: 29%;
-      top: 50%;
-    }
-  
-    // &#terrace-one {
-    //   top: 40%;
-    //   left: 15%;
-    // }
-    
-    &#terrace-two {
-      top: 45%;
-      left: 25%;
-    }
-  
-    // &#terrace-three {
-    //   bottom: 30%;
-    //   left: 25%;
-    // }
-  
-    // &#hallway {
-    //   bottom: 40%;
-    //   right: 35%;
-    // }
-  
-    &#landing-grand-staircase {
-      right: 44%;
-      top: 45%;
-    }
+  #master-bedroom {
+    bottom: 20%;
+    right: 30%;
+  }
 
-    &#spiral-staircase {
-      bottom: 27%;
-      right: 33%;
-    }
-  }  
+  #bedroom-one {
+    right: 50%;
+    top: 30%;
+  }
+
+  #bedroom-two {
+    right: 23%;
+    top: 30%;
+  }
+
+  #bedroom-three {
+    right: 29%;
+    top: 50%;
+  }
+
+  // &#terrace-one {
+  //   top: 40%;
+  //   left: 15%;
+  // }
+  
+  #terrace-two {
+    top: 45%;
+    left: 25%;
+  }
+
+  // &#terrace-three {
+  //   bottom: 30%;
+  //   left: 25%;
+  // }
+
+  // &#hallway {
+  //   bottom: 40%;
+  //   right: 35%;
+  // }
+
+  #landing-grand-staircase {
+    right: 44%;
+    top: 45%;
+  }
+
+  #spiral-staircase {
+    bottom: 27%;
+    right: 33%;
+  }
 }
 
 // @include media-breakpoint-only(md) {
@@ -246,5 +244,18 @@ html {
 
 
 #third-floor {
+  #spiral-staircase {
+    right: 48%;
+    bottom: 29%;
+  }
 
+  #attic-center {
+    left: 50%;
+    top: 45%;
+  }
+
+  #master-bedroom {
+    right: 45%;
+    bottom: 21%;
+  }
 }

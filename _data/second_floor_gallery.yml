@@ -18,10 +18,10 @@
   image_title: Staircase Landing
   image_id: landing-grand-staircase
 
-- image_url: 'assets/images/gallery/second_floor/spiral_staircase.jpg'
+- image_url: 'assets/images/common/spiral_staircase.jpg'
   image_title: Master Bedroom Spiral Staircase
   image_id: spiral-staircase
 
-- image_url: 'assets/images/common/terrace_new.jpg'
+- image_url: 'assets/images/gallery/second_floor/terrace_new.jpg'
   image_title: Terrace Three
   image_id: terrace-two
