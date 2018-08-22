@@ -2,13 +2,36 @@
   z-index: 1;
 };
 
+
+
 .carousel-item {
   height: 100vh;
-  background: no-repeat left center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+
+  background-repeat: no-repeat;
+
+  &.cover {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: left center;
+  }
+
+  &.contain {
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    background-position: center 62px;
+  
+    @include media-breakpoint-only(md) {
+      background-position: center 50px;
+    }
+
+    @include media-breakpoint-down(sm) {
+      background-position: center center;
+    }
+  }
 };
 
 @include media-breakpoint-down(md) {

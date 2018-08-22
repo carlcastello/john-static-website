@@ -1,0 +1,24 @@
+- image_url: 'assets/images/gallery/second_floor/master_bedroom.jpg'
+  image_title: Master Bedroom
+  image_id: master-bedroom
+- image_url: 'assets/images/gallery/second_floor/bedroom_one.jpg'
+  image_title: Bedroom One
+  image_id: bedroom-one
+- image_url: 'assets/images/gallery/second_floor/bedroom_two.jpg'
+  image_title: Bedroom Two
+  image_id: bedroom-two
+- image_url: 'assets/images/gallery/second_floor/bedroom_three.jpg'
+  image_title: Bedroom Three
+  image_id: bedroom-three
+- image_url: 'assets/images/gallery/second_floor/hallway.jpg'
+  image_title: Hallway
+  image_id: hallway
+- image_url: 'assets/images/gallery/second_floor/terrace_one.jpg'
+  image_title: Terrace
+  image_id: terrace-one
+- image_url: 'assets/images/gallery/second_floor/terrace_two.jpg'
+  image_title: Terrace
+  image_id: terrace-two
+- image_url: 'assets/images/gallery/second_floor/terrace_three.jpg'
+  image_title: Terrace
+  image_id: terrace-three

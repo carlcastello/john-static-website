@@ -15,7 +15,7 @@ layout: base
       </div>
     </div>
     <hr>
-    <div class="row justify-content-center margin-top-sm">
+    <div class="row justify-content-center">
       <div class="col-sm-3 my-3">
         <a class="btn btn-inverse btn-light full-width" href="{{ '/gallery' | relative_url }}">Gallery</a>
       </div>
@@ -39,14 +39,14 @@ layout: base
       <div class="col-lg-8 my-3">
         <p class="text-center">
           Built in 2010, Experience the luxury of a <span class="highlight">755m<sup>2</sup></span> mansion located on the 
-          outskirt of Calapan, Oriental Mindoro. Inspired by contemporary
+          outskirts of Calapan, Oriental Mindoro. Inspired by contemporary
           architecture, this <span class="highlight">9&nbsp;bedrooms,
           7 full bathrooms</span> residence suits to anyone wishing for a comfortable 
-          yet luxorius living.
+          yet luxurious living.
         </p>
       </div>
     </div>
-    <div class="row justify-content-center margin-top-sm">
+    <div class="row justify-content-center">
       <div class="col-sm-3">
         <a class="btn btn-inverse btn-dark full-width" href="{{ '/about' | relative_url }}">Learn More</a>
       </div>
@@ -62,7 +62,7 @@ layout: base
     </div>
     <hr>
     <div class="row">
-      <div class="col-lg-4 my-3">
+      <div id="ground-floor" class="col-lg-4 my-3">
         <div class="blueprint-image" style="background-image: url('{{ 'assets/images/tour/ground_floor.png' | relative_url }}')">
           {% for photo in site.data.ground_floor_gallery %}
             <a class="blueprint-camera-image-container" id="{{ photo.image_id }}" href="{{ photo.image_url | relative_url }}" data-toggle="lightbox">
@@ -72,7 +72,7 @@ layout: base
         </div>
         <h5 class="text-center mt-3">First Floor Plan</h5>
       </div>
-      <div class="col-lg-4 my-3">
+      <div id="second-floor" class="col-lg-4 my-3">
         <div class="blueprint-image" style="background-image: url('{{ 'assets/images/tour/second_floor.png' | relative_url }}')">
           {% for photo in site.data.second_floor_gallery %}
             <a class="blueprint-camera-image-container" id="{{ photo.image_id }}" href="{{ photo.image_url | relative_url }}" data-toggle="lightbox">
@@ -82,8 +82,13 @@ layout: base
         </div>
         <h5 class="text-center mt-3">Second Floor Plan</h5>
       </div>
-      <div class="col-lg-4 my-3">
+      <div id="third-floor" class="col-lg-4 my-3">
         <div class="blueprint-image" style="background-image: url('{{ 'assets/images/tour/third_floor.png' | relative_url }}')">
+          {% for photo in site.data.third_floor_gallery %}
+            <a class="blueprint-camera-image-container" id="{{ photo.image_id }}" href="{{ photo.image_url | relative_url }}" data-toggle="lightbox">
+              <img class="blueprint-camera-image" src="{{ 'assets/images/icons/camera.png' | relative_url }}" />
+            </a>
+          {% endfor %}
         </div>
         <h5 class="text-center mt-3">Third Floor Plan</h5>
       </div>

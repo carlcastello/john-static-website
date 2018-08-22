@@ -7,7 +7,7 @@
   <div class="carousel-inner">
     {% for slide in include.slides %}
       <div 
-        class="carousel-item {% if slide.index == 0 %}active{% endif %}" 
+        class="carousel-item {{ slide.extra_class }} {% if slide.index == 0 %}active{% endif %}" 
         style="background-image: url('{{ slide.url | relative_url }}')">
       </div>
     {% endfor %}
