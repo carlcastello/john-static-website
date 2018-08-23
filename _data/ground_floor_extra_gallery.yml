@@ -1,0 +1,11 @@
+- image_url: 'assets/images/gallery/ground_floor/kitchen_space.jpg'
+  image_title: Kitchen
+  image_id: 'kitchen-space'
+
+- image_url: 'assets/images/gallery/ground_floor/kitchen_counter.jpg'
+  image_title: Kitchen Counter
+  image_id: 'kitchen-counter'
+
+- image_url: 'assets/images/gallery/ground_floor/foyer.jpg'
+  image_title: Foyer
+  image_id: 'foyer'
